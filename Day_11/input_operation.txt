@@ -1,0 +1,16 @@
+if monkey == 0:
+    new = old * 17
+if monkey == 1:
+    new = old + 2
+if monkey == 2:
+    new = old + 1
+if monkey == 3:
+    new = old + 7
+if monkey == 4:
+    new = old * old
+if monkey == 5:
+    new = old + 8
+if monkey == 6:
+    new = old * 2
+if monkey == 7:
+    new = old + 6

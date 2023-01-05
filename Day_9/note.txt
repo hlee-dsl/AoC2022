@@ -1,0 +1,9 @@
+It took me long time to test this as I had a bug in the code when the number of knots
+are more than 2 - in part I, the head never move diagonally. Only the tail can. So it is safe to
+assume only one dimension will have distance = 2.
+
+However, when the number of knots is more than 2, the intermediate head serving as the tail of its
+head may move diagonally. As a result, the distance between it and its immediate tail may have
+both dimensions of distance = 2.
+
+The first checking in the moving function fixed the issue.

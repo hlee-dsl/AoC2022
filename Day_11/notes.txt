@@ -1,0 +1,4 @@
+the code works for the test data. When restarting the work -
+1. rerun the shell script parsing the input file. 
+2. modify the function using the new functions generated
+3. rerun everything - make sure to reset/reinitialize the data
